@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Jason-seckilling
+  datasource:
+    name: miaosha
+    url: jdbc:mysql://localhost:3306/miaosha?autoReconnect=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: JasonJason
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+server:
+  port: 9528
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
